@@ -17,4 +17,5 @@ spec:
     spec:
       containers:
       - image: fitsena/simpleweb:latestv2
+        imagePullPolicy: Never
         name: demoapp
