@@ -16,5 +16,5 @@ spec:
         app: demoapp
     spec:
       containers:
-      - image: fitsena/simpleweb:latestv1
+      - image: fitsena/simpleweb:latestv2
         name: demoapp
