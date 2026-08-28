@@ -16,6 +16,6 @@ spec:
         app: demoapp
     spec:
       containers:
-      - image: fitsena/simpleweb:<GITHUB_SHA>
-        imagePullPolicy: always
+      - image: fitsena/simpleweb:85cdc67a8d36c4d08f332cc5bac82c075e89651f
+        imagePullPolicy: Always
         name: demoapp
